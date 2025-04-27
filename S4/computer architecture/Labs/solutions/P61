@@ -1,0 +1,31 @@
+.data
+ msg1: .asciz " How old are you ? "
+ Error_msg:  .asciz " Age can ’t be negative ! "
+ Warning_msg: .asciz " Are you a student ? "
+ Ok_msg: .asciz " Start with the assignment ! "
+ .text
+ li a7 , 51
+ la a0 msg1
+ ecall
+ li t0 , 18
+ li a7 , 55
+ blt a0 , x0 , Error
+ blt a0 , t0 , Warning
+ la a0 , Ok_msg
+ li a1 , 1
+ ecall
+ 
+ beq x0 , x0 , End
+ beq x0 , x0 , End
+ 
+ Warning:
+ la a0 , Warning_msg
+ li a1 , 2
+ ecall
+ beq x0 , x0 , End
+ 
+ Error:
+ la a0 , Error_msg
+ li a1 , 0
+ ecall
+End:

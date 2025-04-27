@@ -1,0 +1,7 @@
+#include "my_Math_library.h"
+int Addition(int a, int b) {
+return a+b;
+}
+int Multiplication(int x, int y) {
+return x * y;
+}

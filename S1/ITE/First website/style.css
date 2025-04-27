@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    margin-top: 8vh;
+    font-family: '  Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+}
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 3;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* li {
+    padding :20px;
+    list-style: none;
+} */
+.menu a {
+    color: #333;
+    padding: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu a:hover {
+    /* color: #9c9235; */
+    transform: scale(1.05);
+    background-color: #9c9235;
+}
+.school, .course, .me{
+    background:url(images/wp4063812.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    justify-content: space-between;
+    height: 100px;
+    align-content: center;
+}
+.school h1,.course h1, .me h1 {
+    font-weight: bold;
+    color: white;
+    height: 9vh;
+    padding-left: 20px ;
+    align-items: center;
+    text-align: left;
+}
+.course a, .school a, .me a{
+    text-decoration: none;
+}
+.course a:hover, .school a:hover, .me a:hover{
+    transform:translateY(-5px);
+}
+.school img{
+    height: auto;
+    max-width: 700px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px 0px 0px 10px;
+}
+.school-des,.course-des,.me-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.school-des p,.course-des p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.7;
+    letter-spacing: 0em;
+    font-family: var(--global-body-font-family);
+    color: var(--global-palette4);
+    position: relative;
+    padding-left: 20px;
+    text-align: justify;
+    color:#333;
+}
+.school-des img{
+    height: auto;
+    max-width: 700px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px 10px 10px 10px;
+}
+.school-des img:hover,.course-des img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 153, 0, 1);
+}
+.course-des img {
+    width: auto;
+    max-height: 500px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px 10px 10px 10px;
+}
+.me-des img {
+    height: auto;
+    max-width: 700px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px 10px 10px 10px;
+}
+.me-des img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 153, 0, 1);
+}
+.me-des li {
+    text-align: start;
+    color :#333;
+    text-align: justify;
+    font-weight: 400;
+    list-style: none;
+    line-height: 1.7;
+    font-size: 20px;
+}
+footer {
+    background:url(images/wp4063812.jpeg);
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+
+}
+footer a{
+    text-decoration: none;
+    color:#fff;
+    
+}
+#Myname{
+    font-weight: bold;
+}
+.BTNtop button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width :50px;
+    height: 50px;
+    color: black;
+    background: #fff;
+    backdrop-filter: blur(15px);
+    border-radius: 8px;
+    box-shadow:0 0 20px  grey;
+    border: 0;
+
+}
+.BTNtop button {
+    color: black;
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: bold;
+    font-size: large;
+}
+.BTNtop button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgb(97, 97, 97);
+
+}
