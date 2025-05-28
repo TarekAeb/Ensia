@@ -4,7 +4,7 @@ Input: .asciz "Enter the index number: "
 Sum: .asciz "The sum of all the array inputs is: "
 
 .text
-.globl main
+# .globl main
 
 .macro print_message(%label)
     # print the message
