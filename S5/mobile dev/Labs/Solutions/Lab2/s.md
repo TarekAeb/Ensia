@@ -43,8 +43,23 @@
     - Marketing and advertising costs
 
 
-## C3
-
+## C3 
+Errors that which violate the following:
+1. Cut out the clutter:
+    - The app has too many features that are not essential to the main purpose of the app, which can confuse users and make it difficult to navigate.
+    - The app has a bugging scroll and unresponsive elements.
+    - Design elements still looks like old school apps.
+2. Design finger-friendly tap-targets:
+    - Some buttons and links are too small and difficult to tap, especially on smaller screens.
+3. Text content should be legible:
+    - The app uses an old font that is no longer supported Times New Roman.
+4. Design controls based on hand position:
+    - Some controls are placed in hard-to-reach areas of the screen, making it difficult for users to access them with one hand.
+5. Minimize need for typing:
+    - There is no filters or search functionality, which can make it difficult for users to find specific content.
+6. Navigation models:
+    - The apps uses the old school navigation model to go forwards and backwards.
+7. 
 
 
 ## P1:
@@ -53,15 +68,24 @@ The business model of android news app is advertisement.
 ## P2:
 
 ## P3:
-1. The one behind BRainerx is 
+1. The one behind BRainerx is Meziane Daho.
 2. the model business model for this app is freemium
 3. The UI design Issues are:
-
+    - There is a problem in the login, we can log into the app because of a backend issue. and the problem is being displayed as scary mongo db error.
 
 4. Yes it is alreay successful because it has 100K+ downloads and 4.9 stars rating on google play store.
 
 ## P4:
-Done
+After visiting rapidapi.com i discovered several interesting APIs that could be useful for my app idea. Here are a few examples:
+1. **OpenWeatherMap API**: This API provides weather data, which could be useful for a travel app to help users plan their trips based on weather conditions.
+2. **Google Maps API**: This API offers mapping and location services, which could be useful for a travel app to help users find nearby attractions, restaurants, and accommodations.
+3. **Yelp Fusion API**: This API provides access to Yelp's business data, which could be useful for a travel app to help users find and review local businesses.
+4. **Skyscanner API**: This API offers flight search and booking services, which could be useful for a travel app to help users find and book flights.
+5. **TripAdvisor API**: This API provides access to TripAdvisor's travel content, which could be useful for a travel app to help users find and review hotels, restaurants, and attractions.
+6. **Foursquare API**: This API offers location-based services, which could be useful for a travel app to help users discover new places and experiences.
+7. **Amadeus API**: This API provides travel-related services, including flight and hotel booking, which could be useful for a travel app to help users plan and book their trips.
+8. **Eventbrite API**: This API offers event management and ticketing services, which could be useful for a travel app to help users find and attend local events.
+9. **Currency Exchange API**: This API provides currency conversion services, which could be useful for a travel app to help users manage their finances while traveling abroad.
 
 ## P5:
 nuh
