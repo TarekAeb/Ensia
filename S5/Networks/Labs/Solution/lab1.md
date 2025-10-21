@@ -76,3 +76,33 @@ Between which two routers do packets cross the Atlantic Ocean?
 vlan100.r03.tor01.mrs01.fab.aloha-jmannil.netarch.akamai.com and the next one (which is not responding to traceroute requests)
 ### d.
 At split 9 destinations diverge
+
+
+# Exo4
+
+# Exo5
+### a. The Ip address of ensia.edu.dz 
+197.140.11.217
+
+### b. The IP address of yahoo.fr
+13.248.158.7
+76.223.84.192
+- It has more than one IP address because it uses multiple servers to handle requests, which helps with load balancing and redundancy.
+
+### c. The IP address of google.com
+
+### d.
+The IP addresses can change for several reasons:
+- DNS load balancing / round-robin: Google’s DNS returns different IPs in rotation to distribute the load.
+- CDN (Content Delivery Network): you might get directed to a closer data center.
+- Caching: your ISP or system might update its DNS cache periodically.
+### e. the name of IP address 127.0.0.1
+localhost, what is special about it is that it is the loopback address, used to establish an IP connection to the same machine or computer being used by the end-user.
+
+# Exo6
+a. The opened ports on my computer are too much
+b. The remote adresses that comunicate with my computer are:
+- https
+- webaccess
+- serverview-icc
+- bootps
