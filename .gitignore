@@ -7,3 +7,4 @@ video/
 S4/Statistics/video/
 *.MOV
 *.vscode
+__pycache__/
